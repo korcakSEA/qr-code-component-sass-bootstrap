@@ -1,0 +1,32 @@
+@use '../scss/custom' as *;
+
+body{
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.card{
+  border:none;
+  border-radius: 1rem;
+
+  img{
+    border-radius: inherit;
+  }
+
+  .card-body{
+
+    h5{
+      color: $primary;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .card-text{
+      color: rgba($secondary, $alpha:0.9);
+      text-align: center;
+      font-weight: 400;
+    }
+
+  }
+}

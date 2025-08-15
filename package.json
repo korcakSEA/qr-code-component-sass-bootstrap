@@ -1,0 +1,25 @@
+{
+  "name": "qr-code-component-main",
+  "version": "1.0.0",
+  "description": "Sass test",
+  "keywords": [
+    "Bootstrap",
+    "bootsrap-v5",
+    "sass"
+  ],
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.7",
+    "postcss-cli": "^11.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}

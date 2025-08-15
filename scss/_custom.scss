@@ -1,0 +1,34 @@
+
+// Color system
+
+// My theme color
+$slate-900: hsl(218, 44%, 22%);
+$slate-500: hsl(216, 15%, 48%);
+$slate-300: hsl(212, 45%, 89%);
+
+// scss-docs-start gray-color-variables
+$white:    #fff !default;
+
+
+// scss-docs-start theme-color-variables
+$primary:       $slate-900;
+$secondary:     $slate-500;
+$success:       $slate-300;
+
+// font size base
+$font-size-base:              .9375rem; // `15px`
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2.5, //changed to 2.5rem, before 3rem
+) !default;
+// scss-docs-end spacer-variables-maps
+
+// import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
